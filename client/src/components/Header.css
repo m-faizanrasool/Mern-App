@@ -1,0 +1,46 @@
+  */
+.header h6{
+margin-left:60px;
+}  
+.header ul{
+    list-style-type: none;
+    /* display:inline; */
+    z-index:10;
+    background-color: black;
+    padding:30px;
+
+}
+.header ul li{
+    display: inline;
+}
+.header li a{
+    color:white;
+    padding:4px;
+    
+    text-decoration: none;
+}
+li a:hover{
+    color:grey;
+}
+.header{
+    background-color: rgba(161, 161, 161, 0.336);
+}
+.header ul{
+    text-align:center;
+    color:black;
+    padding:5;
+}
+#logo{
+    margin-left:40px;
+    padding-top: 15px;
+}
+.header h1{
+    float:right;
+    padding-top:40px;
+    padding-bottom: 0px;
+    margin:30px;
+    font-family: helvetica;
+}
+.header h1 span{
+    color:grey;
+}

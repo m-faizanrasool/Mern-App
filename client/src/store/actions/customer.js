@@ -1,7 +1,7 @@
-import {GET_CUSTOMERS} from './constants';
+import {GET_ITEMS} from './constants';
 
-export const getCustomers = () => dispatch => {
+export const getItems = () => dispatch => {
   return fetch('/api/customers')
     .then(res => res.json())
-    .then(customers => dispatch({type: GET_CUSTOMERS, payload: customers}))
+    .then(items => dispatch({type: GET_ITEMS, payload: items}))
 }
